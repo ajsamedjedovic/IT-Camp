@@ -1,0 +1,72 @@
+* {
+  margin: 0px;
+}
+body {
+  background-color: antiquewhite;
+}
+
+header {
+  background-color: cornflowerblue;
+  height: 70px;
+  text-align: start;
+}
+
+h1 {
+  color: blue;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 30px auto 30px;
+}
+.lorem {
+  padding: 0px 50px 30px 50px;
+  text-align: center;
+}
+div .prvi {
+  border: 1px black solid;
+  height: 300px;
+  width: 300px;
+  display: inline-block;
+  margin: 30px 20px 0px 20px;
+  background-color: blanchedalmond;
+}
+h2 {
+  text-transform: uppercase;
+  padding-top: 30%;
+}
+#glavni {
+  width: 100%;
+  text-align: center;
+}
+img {
+  display: inline-block;
+}
+a,
+#DropDown {
+  position: relative;
+  top: -50px;
+  padding: 20px;
+}
+#DropDown {
+  padding: 0px;
+  background-color: cornflowerblue;
+}
+.p {
+  margin-left: 100px;
+}
+
+.label {
+  text-align: right;
+  margin-right: 100px;
+}
+
+.prvi p {
+  padding-bottom: 30%;
+  padding-top: 10%;
+  padding-right: 10px;
+  padding-right: 10px;
+}
+.get {
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 7px;
+}

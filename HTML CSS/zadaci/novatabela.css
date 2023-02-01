@@ -1,0 +1,75 @@
+body {
+  background-color: rgb(226, 120, 226);
+}
+tr,
+td {
+  border: 1px dashed black;
+  outline: none;
+
+  /* border-width: 0.2px;   PRIMER*/
+  /* border-block: 3px; */
+  /* border-inline: 1px; */
+}
+table {
+  margin: 70px auto 0px;
+  text-align: center;
+  width: 1100px;
+  height: 400px;
+  background-color: aliceblue;
+  border-radius: 20px;
+
+  box-shadow: 12px 12px hotpink;
+}
+.prvi td {
+  text-transform: uppercase;
+  text-align: center;
+  color: hotpink;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.drugi td {
+  border-left: 0px solid;
+  border-right: 0px solid;
+}
+
+table .drugi {
+  height: 3px;
+  /* border: none;
+  background-color: aqua; */
+}
+
+tr :nth-child(1) {
+  width: 1px;
+}
+tr :nth-of-type(odd) {
+  background-color: rgb(196, 192, 113);
+}
+/* tr */
+/* tr:nth-of-type(2) {
+  border: 1px hidden;
+} */
+
+/* .drugi td:nth-of-type(1) {
+  width: 10px;
+  height: 40px;
+  background-color: aqua;
+}  da prvi td bude manji nego svi ostali */
+
+/* table tr:nth-of-type(4) td:nth-of-type(4) {
+  background-color: yellow;
+} */
+
+/* .ist {
+  background-color: brown;
+} */
+
+/* table tr:not(.drugi) {
+  border: 1px solid black;
+} */
+.poslednji td {
+  text-align: right;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding-right: 20px;
+}

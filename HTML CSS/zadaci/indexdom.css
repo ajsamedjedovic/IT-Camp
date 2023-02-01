@@ -1,0 +1,13 @@
+body {
+  color: black;
+  text-align: center;
+  background-color: rgb(168, 140, 102);
+}
+.second {
+  background-color: aqua;
+  text-align: left;
+}
+
+.second:nth-of-type(2) {
+  background-color: blue;
+}

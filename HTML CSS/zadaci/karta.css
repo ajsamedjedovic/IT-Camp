@@ -1,0 +1,55 @@
+body {
+  background-color: rgb(249, 251, 252);
+  /* border: 3px solid black; */
+  border-radius: 20px;
+  width: 400px;
+  height: 600px;
+
+  margin: 20px auto;
+}
+
+.main img {
+  width: 400px;
+  height: 300px;
+  /* border-radius: 20px 20px 0px 0px; */
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.main {
+  background-color: aquamarine;
+  overflow: auto;
+  overflow-x: hidden;
+  margin: 20px auto 30px;
+  border: 3px solid black;
+  width: 400px;
+  height: 600px;
+  width: 400px;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 6px 6px 12px rgb(10, 9, 8, 0.6);
+}
+
+.main p:nth-of-type(2):hover {
+  background-color: blue;
+  text-transform: uppercase;
+  text-indent: 20px;
+  text-align-last: 20px;
+}
+.main img:hover {
+  content: url(../3.cas/nasa\ prva\ fotografija.jpg);
+}
+
+.main:nth-of-type(2) {
+  /* visibility: hidden; */
+  /* nestaje ali jos uvek zauzima neki prostor */
+  display: none;
+}
+/* /* .main:nth-of-type(3)  
+   visibility: hidden; 
+   nestaje ali jos uvek zauzima neki prostor 
+  background-color: black;
+   dokaz da display:none skroz brise taj div,i umesto njega dolazi sledeci po redu 
+/* * */
+
+.third {
+  background-color: rgb(211, 125, 21);
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Domaci</title>
+  </head>
+  <body>
+    <form action="./tabele.html" target="_blank">
+      <input type="text" id="ime" name="ime" placeholder="Vase ime" required />
+      <br />
+      <br />
+      <input
+        type="password"
+        id="password"
+        name="sifra"
+        placeholder="Vasa sifra"
+        required
+      />
+      <br />
+      <br />
+      <button type="submit">Prijava</button>
+    </form>
+    <br />
+    <br />
+    <form action="../3.cas/nasa prva fotografija.jpg" target="_blank">
+      <label for="username">Unesite svoj username</label>
+      <input type="username" name="korisnicko ime" id="username" required />
+      <br />
+      <br />
+      <label for="password">Unesite svoju sifru</label>
+      <input type="password" name="sifra" id="password" required />
+      <br />
+      <br />
+      <label for="date">Unesite svoj datum rodjenja </label>
+      <input
+        type="date"
+        name="datum"
+        id="date"
+        required
+        min="2000-01-01"
+        max="2023-01-01"
+      />
+      <br />
+      <br />
+      <label for="status">Koji je vas status:</label>
+      <select name="status" id="status">
+        <option value="student">student</option>
+        <option value="u braku">u braku</option>
+        <option value="ucenik">ucenik</option>
+        <option value="nezaposljeni">nezaposljeni</option>
+      </select>
+      <br />
+      <br />
+      <button type="submit">Pravljenje profila</button>
+      <button type="reset">Resetuj</button>
+    </form>
+  </body>
+</html>
