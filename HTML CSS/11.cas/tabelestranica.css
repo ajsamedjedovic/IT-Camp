@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+table {
+  width: 100%;
+
+  background-color: aqua;
+}
+table,
+tr,
+td {
+  border: 1px solid black;
+}
+img {
+  height: 70px;
+}
+
+.prvi {
+  text-align: end;
+  height: 50px;
+}
+.prvi td {
+  padding: 0px 30px 0px;
+}

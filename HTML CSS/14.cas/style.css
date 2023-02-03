@@ -1,0 +1,47 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: aquamarine;
+  /* font-size: 4mm; */
+  font-size: 16px;
+}
+.parent {
+  background-color: azure;
+  /* height: 400px; */
+  /* width: 60vw; 60% na odnosu na sirinu bez obzira na sve */
+  /* width: 5pt; */
+  /* width:600px; */
+  margin: 40px auto;
+  font-size: 12px;
+  /* height:40vh :40% u odnosu na visinu(bez obzira na velicinu); */
+  /* width: 100%; */
+  width: 600px;
+}
+.child {
+  margin: 40px auto 30px;
+  background-color: blueviolet;
+  font-size: 1.3rem;
+  width: 100%;
+}
+/* u CSS-u imamo apsolutne i relativne velicine: */
+/*1. apsolutne velicine/// Absolute Lenghts */
+
+/* cm */
+/* mm-milimeters */
+/* in -inches (1in=96px )*/
+/* px */
+/* pt -points "(1pt = 1/72 of in) */
+/* pc -picas (1pc =12pt ) */
+
+/* 2.  RELATIVNE VELICINE (RELATIVE LENGHTS*/
+
+/* em- je relativna u odnosu na font size njenog roditelja  */
+/* rem -relativna na odnosu na root element .Ne nasledjuje od parenta*/
+/* VW -viewport of the width,Relativan za 1% u odnosu na sirinu ekrana */
+/* Vh -viewport of the height,Relativan za 1% u odnosu na visinu ekrana */
+/* vmin - relativan za 1% u odnosu na manju dimenziju */
+/* vmax - relativan za 1% u odnosu na vecu dimenziju */
+/* % -  relativan za 1% u odnosu na svog pantera*/
