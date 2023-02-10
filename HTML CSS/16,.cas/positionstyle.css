@@ -1,0 +1,41 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+.parent {
+  width: 600px;
+  height: 600px;
+  background-color: coral;
+  margin: auto;
+}
+.child1 {
+  background-color: azure;
+
+  width: 130px;
+  height: 130px;
+  top: 45px;
+  left: 45px;
+}
+.child2 {
+  background-color: blanchedalmond;
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  top: 70px;
+  left: 70px;
+  z-index: 5;
+}
+
+.child3 {
+  width: 130px;
+  height: 130px;
+  background-color: blue;
+  top: 130px;
+  left: 160px;
+
+  position: absolute;
+}
+
+.parent {
+  position: relative;
+}

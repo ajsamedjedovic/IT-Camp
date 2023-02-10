@@ -70,3 +70,7 @@ a,
   border-radius: 20px;
   padding: 7px;
 }
+
+a {
+  text-decoration: none;
+}

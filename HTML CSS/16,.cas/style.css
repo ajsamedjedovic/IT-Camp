@@ -1,0 +1,48 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+.parent {
+  width: 90%;
+  height: 200vh;
+  background-color: aquamarine;
+  margin: 40px auto 0px;
+  position: relative;
+}
+h1 {
+  font-size: 50px;
+}
+/* position:static je defaultna vrednost pozicioniranja */
+.child1 {
+  background-color: rgb(235, 138, 200);
+  height: 130px;
+
+  /* dobijamo 4 nova CSS svojstva: */
+  /* top: 640px;
+  bottom:;
+  left: 20px;
+  right: ;  */
+
+  position: absolute;
+  top: 20px;
+  left: 500px;
+  z-index: 10;
+}
+.child2 {
+  background-color: blueviolet;
+  height: 130px;
+  position: fixed;
+  right: 20px;
+  z-index: 5;
+}
+.child3 {
+  background-color: rgb(233, 204, 128);
+  height: 130px;
+  position: sticky;
+  /* za header bolji */
+  top: 40px;
+}
+.child4 {
+  background-color: violet;
+  height: 130px;
+}
