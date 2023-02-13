@@ -9,7 +9,7 @@ body {
   font-size: 16px;
 }
 .parent {
-  background-color: azure;
+  background-color: rgb(41, 151, 151);
   /* height: 400px; */
   /* width: 60vw; 60% na odnosu na sirinu bez obzira na sve */
   /* width: 5pt; */
@@ -22,7 +22,7 @@ body {
 }
 .child {
   margin: 40px auto 30px;
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
   font-size: 1.3rem;
   width: 100%;
 }
