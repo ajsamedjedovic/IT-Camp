@@ -1,0 +1,22 @@
+.main div {
+  border: 1px black solid;
+  padding: 10px;
+}
+.main {
+  display: flex;
+
+  align-items: center;
+}
+.third {
+  flex: 2;
+  order: 1;
+}
+.second {
+  order: 2;
+  flex: 7;
+}
+
+.first {
+  order: 3;
+  flex: 2;
+}

@@ -1,0 +1,59 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+.main {
+  background-color: rgb(123, 212, 221);
+  margin: auto;
+  width: 60vw;
+  height: 80vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.box {
+  width: 120px;
+  height: 120px;
+}
+
+.box:nth-of-type(1) {
+  background-color: rgb(92, 89, 89);
+  align-self: flex-start;
+}
+
+.box:nth-of-type(2) {
+  background-color: yellow;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.box:nth-of-type(3) {
+  background-color: violet;
+  align-self: flex-end;
+}
+
+/*  za centriranje teksta
+align-item:center;
+justify-content:center; */
+
+/* flex-direction: row; defaultna vrednost
+  /* flex-direction: column; */
+
+/* Horizontalno poravnanje: */
+/* justify-content: flex-start; defaultna vrednost horizontalnog poravnanja */
+/* justify-content: center; */
+/* justify-content: flex-end; */
+/* justify-content: space-between; */
+/* justify-content: space-around; */
+/* justify-content: space-evenly; */
+
+/* Vertikalno poravnanje: */
+/* align-items: flex-start; defaultna vrednost vertikalnog poravnanja */
+/* align-items: center; */
+/* align-items: flex-end; */
