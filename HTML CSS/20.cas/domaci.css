@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.header {
+  height: 12vh;
+  width: 100%;
+  background-color: rgb(6, 99, 169);
+  position: relative;
+}
+
+img {
+  height: 100%;
+  width: 120px;
+  position: absolute;
+  left: 225px;
+}
+
+.links {
+  position: absolute;
+  /* 
+  align-self: end;
+  align-self: flex-end; */
+  right: 200px;
+  top: 20px;
+  height: 50px;
+
+  padding: 15px;
+}
+a {
+  margin: 20px;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.sign {
+  border-radius: 20px;
+  background-color: aliceblue;
+  color: black;
+  padding: 10px 25px;
+  width: 20px;
+}
+
+.body {
+  width: 500px;
+  margin-top: 10px;
+  /* border: 1px solid black; */
+  margin-left: 200px;
+  height: 90vh;
+  display: flex;
+  /* display: flex;
+  /* grid-template-columns: auto auto auto auto; */
+  /* row-gap: 50px;
+  column-gap: 10px; */
+  /* flex-wrap: wrap; */
+  /* justify-content: space-between;
+  justify-content: space-around;
+  margin-left: 100px;  */
+}
+
+.box-1,
+.box-2,
+.box-3,
+.box-4 {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(224, 224, 224);
+}
+
+.prvi {
+  display: flex;
+  gap: 50px 10px;
+  flex-direction: column;
+  /* justify-content: space-around; */
+}
+
+.drugi {
+  display: flex;
+  flex-direction: column;
+  gap: 50px 10px;
+  padding: 40px;
+}
+
+.slika {
+  width: 500px;
+  height: 500px;
+}
+
+.image {
+  position: absolute;
+  right: 900px;
+  top: 150px;
+}
+
+.ponude {
+  width: 60%;
+  height: 600px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ponude div {
+  height: 450px;
+  width: 250px;
+  background-color: rgb(224, 224, 224);
+  border: 1px black solid;
+  text-align: center;
+  margin-top: 100px;
+  /* padding: 20px; */
+}
+
+.opcije1:hover {
+  transform: scale(1.2);
+}
+.opcije2:hover {
+  transform: scale(1.2);
+}
+.opcije3:hover {
+  transform: scale(1.2);
+}
+
+.ponude h2 {
+  margin-top: 20px;
+  margin-bottom: 2px;
+}
+
+.ponude p {
+  line-height: 30px;
+}
+
+.ponude h1 {
+  margin: 25px;
+}
+
+.ponude button {
+  margin: 50px;
+  border-radius: 20px;
+  height: 50px;
+  width: 120px;
+}
+
+.footer {
+  width: 100%;
+  background-color: rgb(6, 99, 169);
+  height: 200px;
+}
+
+.kugla1 {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background-color: rgb(12, 12, 152);
+  /* position: relative; */
+  transition: transform 0.5s ease-in-out 0.5s;
+}
+
+.kugla2 {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background-color: rgb(12, 12, 152);
+  position: relative;
+  float: right;
+  transition: transform 0.5s ease-in-out 0.5s;
+}
+
+.copyright {
+  position: relative;
+  top: 100px;
+}
+
+.footer:hover .kugla1 {
+  transform: translatex(1900%);
+  transition: 3s;
+}
+.footer:hover .kugla2 {
+  transform: translatex(-1900%);
+  transition: 3s;
+}
+
+.box-1,
+.box-2,
+.box-3,
+.box-4 {
+  text-align: center;
+}
+
+i {
+  width: 30px;
+  height: 30px;
+  margin: 1px;
+  font-size: 22px;
+}

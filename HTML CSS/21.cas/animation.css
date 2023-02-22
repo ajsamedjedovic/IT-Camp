@@ -14,7 +14,9 @@
   height: 50%;
   background-color: aqua;
   /* transition: transform 0.5s linear; */
-   transition: all  1s cubic-bezier(0.31, -0.5 , 1, 1.9) 0.3s;/* ako se nalazi u hoveru samo ce da se vrati kada maknemo mis */ 
+
+  transition: all 1s cubic-bezier(0.31, -0.5, 1, 1.9) 0.3s;
+  /* ako se nalazi u hoveru samo ce da se vrati kada maknemo mis */
   /* transition-property:transform na koji se property odnosi  ; */
   /* transition-duration:1s;trajanje transformacije */
   /* transition-timing-function: ease-in-out; funkcija po kojoj se transformacija vrsi; */
@@ -22,14 +24,15 @@
 }
 
 .parent:hover .child {
-   transform: translatey(100%);
+  transform: translatey(100%);
   /* transform: translatex(100%); */
   /* transform: translate(100%, 0%); pomeranje po X i Y-osi */
-  background-color: crimson;
-}
 
-/* .child:hover {
-  /* transform: scale(0.5, 1.5); 
+  /* }  */
+
+  /* .child:hover { */
+  /* transform: scale(0.5, 1.5);
   transform: scale(1.2);
-  transform: scale(0.5); */
-/* border-radius: 50%;} 
+  /* transform: scale(0.5); */
+  /* border-radius: 50%;  */
+}
