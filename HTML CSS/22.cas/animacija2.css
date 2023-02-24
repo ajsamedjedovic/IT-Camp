@@ -13,18 +13,18 @@
   width: 50%;
   height: 50%;
   background-color: aqua;
-  /* animation: top-to-bottom 1.3s ease-in 0.5s forwards infinite alternate; */
+  animation: top-to-bottom 1.3s ease-in 0.5s forwards infinite alternate;
   /* animacija se desava ne gledajuci mis */
 }
 
-.parent:hover .child {
-  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
-  animation: top-to-bottom 2s ease-in 0.5s forwards infinite alternate;
-  /* animation: top-to-bottom 1.3s ease-in 0.5s forwards 3 alternate; */
-  /* backwards ,3 ponavljanje/vracanje je takodje desavanje- alternate */
-  /* animation-play-state: paused; zaustavlja se sa misem */
-  /* background-color: yellowgreen; */
-}
+/* .parent:hover .child { */
+/* animation: name duration timing-function delay iteration-count direction fill-mode; */
+/* animation: top-to-bottom 2s ease-in 0.5s forwards infinite alternate; */
+/* animation: top-to-bottom 1.3s ease-in 0.5s forwards 3 alternate; */
+/* backwards ,3 ponavljanje/vracanje je takodje desavanje- alternate */
+/* animation-play-state: paused; zaustavlja se sa misem */
+/* background-color: yellowgreen; */
+/* } */
 
 @keyframes top-to-bottom {
   0% {

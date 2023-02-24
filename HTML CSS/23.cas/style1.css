@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+body {
+  background-color: darkmagenta;
+}
+.parent {
+  background-color: bisque;
+  margin: auto;
+  width: 800px;
+}
