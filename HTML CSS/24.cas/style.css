@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.parent {
+  width: 800px;
+  /* height: 700px; */
+  margin: auto;
+  background-color: rgb(224, 139, 187);
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  /* koliko kolona i po kojoj velicini */
+  /* grid-template-columns: 200px 150px;
+  grid-template-columns: 1fr 1fr 2fr; */
+  /* koliko vrednosti toliko kolona */
+  /* 1fr je kao flex-grow=1,ceo parent da se popuni */
+  /* pomocu ovoga definisemo sirinu  */
+  /* grid-template-rows: 200px 150px; */
+  /* koliko redova i kojih visina
+  /* grid-auto-rows: 180px; */
+  grid-auto-rows: minmax(180px, auto);
+  /* minmax funkcija zahteva 2 argumenta ,gde prvi predstavlja minimalnu  vis inu a druga maksimalnu visinu {u slucaju povecanja} */
+  /* za overflow  */
+  /* uzima previse?  makni height parentu */
+  /* grid-row-gap: 15px;
+  grid-column-gap: 15px; */
+  grid-gap: 20px;
+
+  /* spajanje childa */
+  grid-template-areas:
+    "header header right"
+    "prvi drugi treci"
+    "cetvrti peti treci";
+}
+
+.child {
+  /* width: 150px; 
+  ne koristimo toliko width
+   height: 150px; */
+}
+
+.first {
+  background-color: rgb(208, 239, 9);
+  grid-area: header;
+}
+.second {
+  background-color: rgb(47, 203, 19);
+  grid-area: right;
+}
+.third {
+  background-color: rgb(214, 119, 61);
+  grid-area: prvi;
+}
+.fourth {
+  background-color: rgb(11, 12, 12);
+  grid-area: drugi;
+}
+.fifth {
+  background-color: rgb(243, 246, 248);
+  grid-area: treci;
+}
+.sixth {
+  background-color: rgb(4, 130, 241);
+  grid-area: cetvrti;
+}
+.seventh {
+  background-color: rgb(247, 8, 8);
+  grid-area: peti;
+}
