@@ -48,6 +48,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  /* da bi footer uvek bio ispod svega ostalog,mora da se lepo izracuna koliko je ostalo od visine sajta i da se tako definise visina footera */
 
   /* align items ne radi ako nemamo visinu definisanu */
 }
