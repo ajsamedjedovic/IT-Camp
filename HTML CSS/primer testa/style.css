@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid grey;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  display: flex;
+  color: grey;
+}
+
+.links {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  flex-direction: row;
+  width: 50%;
+  gap: 20px;
+}
+
+.links button {
+  padding: 10px;
+  background-color: blue;
+  color: wheat;
+  border-radius: 20px;
+}
+
+img {
+  width: 700px;
+  height: 600px;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  min-height: 550px;
+}
+
+footer {
+  min-height: 120px;
+  background-color: antiquewhite;
+}
+
+.main div {
+  justify-self: center;
+  align-items: center;
+}
+
+.levo {
+  width: 50%;
+  height: 550px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.levo p {
+  margin: 15px;
+}
+
+.paragraf {
+  width: 75%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.levo h1 {
+  margin: 30px;
+}
+
+i {
+  width: 50px;
+  height: 50px;
+}

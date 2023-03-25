@@ -1,21 +1,160 @@
 body {
   margin: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
-header img {
+.body {
+  /* background-color: aqua; */
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-rows: auto;
+}
+
+.header {
+  width: 100%;
+  height: 55px;
+  padding-left: 10%;
+  grid-column: 1/-1;
+}
+.header img {
   width: 30px;
   height: 30px;
-  margin: 10px;
+  margin: 15px;
 }
 
-.slike {
-  margin-left: 240px;
-  height: 45px;
-  width: 75%;
+.header img:hover {
+  transform: scale(1.2);
+  cursor: pointer;
 }
 
-header {
-  height: 150px;
-  background-color: antiquewhite;
+.accordion {
+  width: 140px;
+  height: 50px;
+  grid-template-rows: 2;
+  display: flex;
+}
+
+.section {
+  width: 100%;
+  height: 60px;
+  background-color: rgb(52, 3, 61);
+  flex-direction: row;
+  grid-template-columns: (3, 200px);
+  display: flex;
+  color: aliceblue;
+  align-items: center;
+  font-family: "Kanit", sans-serif;
+}
+hr {
+  height: 30px;
+  border-color: rgba(129, 96, 135, 0.5);
+  margin-right: 10px;
+}
+
+.lion {
+  width: 30;
+  height: 30;
+}
+.lav1 {
+  width: 30px;
+  height: 30px;
+}
+.section-levo {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin-left: 350px;
+}
+a {
+  text-decoration: none;
+  margin: 25px;
+  font-size: medium;
+
+  color: white;
+  cursor: pointer;
+}
+
+#prvi {
+  margin-left: 170px;
+}
+i {
+  font-size: x-small;
+  margin: 5px;
+}
+
+#lupa {
+  font-size: larger;
+}
+
+.naslov {
+  width: 100%;
+  height: 200px;
+  margin-top: 20px;
+}
+
+.background img {
+  width: 100%;
+  height: 200px;
+}
+h1 {
+  position: relative;
+  height: 120px;
+  width: 120px;
+  color: white;
+  bottom: 180px;
+  left: 30px;
+  font-size: 60px;
+  font-family: "Kanit", sans-serif;
+}
+
+button {
+  position: relative;
+  width: 65px;
+  height: 50px;
+  bottom: 320px;
+  left: 900px;
+}
+input {
+  position: relative;
+  width: 500px;
+  height: 50px;
+  bottom: 320px;
+  left: 220px;
+  background-color: hsla(0, 0%, 2%, 0.6);
+}
+
+.klubovi {
+  width: 95%;
+  height: 800px;
+  /* background-color: aqua; */
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: auto;
+  margin-top: 70px;
+  margin: auto;
+  margin-top: 20px;
+  grid-gap: 30px;
+  row-gap: 5px;
+}
+
+.klub {
+  height: 300px;
+  background-color: rgb(229, 234, 234);
+}
+
+.klub img {
+  width: 100%;
+  height: 50%;
+}
+
+.opis {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.opis h2 {
+  margin: 5px;
 }
