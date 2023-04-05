@@ -24,8 +24,6 @@ for (v = 1; v < 20; v += 2) {
 for (y = 1; y < 20; y++) {
   if (y % 2 != 0) {
     console.log(y);
-  } else {
-    continue;
   }
 }
 
@@ -34,8 +32,6 @@ for (y = 1; y < 20; y++) {
 for (i = 1; i < 50; i++) {
   if (i % 5 == 0) {
     console.log(i);
-  } else {
-    continue;
   }
 }
 
@@ -44,15 +40,11 @@ for (i = 1; i < 50; i++) {
 d = 0;
 for (i = 6; i < 14; i++) {
   if (i % 2 == 0) {
-    d += 2 * i;
-  } else {
-    continue;
+    console.log(d * 2);
   }
 }
-console.log(d);
 
 //2.nacin
 for (v = 6; v < 14; y += 2) {
-  d += 2 * v;
+  console.log(d * 2);
 }
-console.log(d);
