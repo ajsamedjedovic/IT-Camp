@@ -188,9 +188,10 @@ hr {
   top: -10px;
 }
 
-.delovi {
+/* .delovi {
   display: flex;
   flex-direction: column;
+  width: 50%;
 }
 
 .delovi div {
@@ -204,4 +205,4 @@ hr {
 
 .delovi div:nth-of-type(1) {
   flex-direction: column;
-}
+} */

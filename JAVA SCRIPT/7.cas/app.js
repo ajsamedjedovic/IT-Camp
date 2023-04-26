@@ -64,3 +64,12 @@ for (i = 1; i < n; i++) {
 
 console.log(s);
 console.log(p);
+
+for (i = 99; i > 0; i--) {
+  if (i > 0) {
+    console.log(i);
+  } else
+    for (i = 0; i > -99; i--) {
+      console.log(i);
+    }
+}
