@@ -59,12 +59,23 @@ console.log(recenica.split("")); //svaki karakter predstavlja |-|
 // console.log(funkcija(recenica));
 
 //Domaci
-let brojac = 0;
 
-function funkcija1(broj) {
-  for (let i = 0; i < broj; i++) {
-    brojac += i.toString();
+function funkcija1(a) {
+  let jedinica = a % 10;
+  let desetica = Math.floor((a / 10) % 10);
+  let stotina = Math.floor(a / 100);
+  return jedinica + desetica + stotina;
+}
+console.log(funkcija1(234));
+
+function funkcija2(broj) {
+  const brSTRING = broj.toString();
+  const brNIZ = brSTRING.split("");
+  let brojac = 0;
+  for (let i = 0; i < brNIZ.length; i++) {
+    brojac += Number(brNIZ[i]);
   }
   return brojac;
 }
-console.log(funkcija1(7));
+
+console.log(funkcija2(379));
