@@ -46,14 +46,25 @@ console.log(recenica.split());
 console.log(recenica.split(" ")); //svaka rec predstavlja jedan element niza
 console.log(recenica.split("")); //svaki karakter predstavlja |-|
 
-function funkcija(string) {
-  const nizReci = string.split(" ");
-  let najduzaRec = nizReci[0];
-  for (let i = 0; i < nizReci.length; i++) {
-    if (nizReci[i].length > najduzaRec.length) {
-      najduzaRec = nizReci[i];
-    }
+// function funkcija(string) {
+//   const nizReci = string.split(" ");
+//   let najduzaRec = nizReci[0];
+//   for (let i = 0; i < nizReci.length; i++) {
+//     if (nizReci[i].length > najduzaRec.length) {
+//       najduzaRec = nizReci[i];
+//     }
+//   }
+//   return najduzaRec.length;
+// }
+// console.log(funkcija(recenica));
+
+//Domaci
+let brojac = 0;
+
+function funkcija1(broj) {
+  for (let i = 0; i < broj; i++) {
+    brojac += i.toString();
   }
-  return najduzaRec.length;
+  return brojac;
 }
-console.log(funkcija(recenica));
+console.log(funkcija1(7));
