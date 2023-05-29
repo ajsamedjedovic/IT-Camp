@@ -26,16 +26,32 @@ console.log(funkcija1(6, 7, "Pera ima devojku"));
 // const B = "Madagaskar";
 // console.log(B.replace(/a/g, ""));
 
-const funk = (string, Z) => {
-  let NovaRec = "";
-  for (i = 0; i < string; i++) {
-    if (i == Z) {
-      continue;
-    } else {
-      NovaRec += string[i];
+const newString = (A, Z) => {
+  let noviString = "";
+  let i = 0;
+  while (i < A.length) {
+    if (A[i] !== Z) {
+      noviString += A[i];
     }
+    i++;
   }
-  return NovaRec;
+  return noviString;
 };
-console.log(funk("Madagaskar", "a"));
-////nije dobro
+console.log(newString("Madagaskar", "a"));
+
+// Domaci:
+// 1.	Izdvojiti N znakova sa desne strane (poslednjih N znakova) unetog stringa. Npr. za string 'Pera ima devojku' i N=5, dobija se 'vojku'.
+// function funkcija0(N, string) {
+//   let novi_string = "";
+//   for (i = string.length - 1; i > 0; i--) {
+//     if (novi_string  N) {
+//       novi_string += string[i];
+//     }
+//     return novi_string;
+//   }
+// }
+// console.log(funkcija0("Pero ima devojku"));
+//nije tacno
+
+let string = "Pera";
+console.log(string.split(""));
