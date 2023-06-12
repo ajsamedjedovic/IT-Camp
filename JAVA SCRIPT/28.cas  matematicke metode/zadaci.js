@@ -45,3 +45,18 @@ console.log(funkcija(1, 75));
 console.log(funkcija(1, 5));
 console.log(funkcija(77, 89));
 console.log(funkcija(55, 44));
+
+// 2.zadatak
+
+function funk(prvi, drugi) {
+  for (let i = 0; i < 100; i++) {
+    if (prvi === drugi) {
+      return "brojevi su isti";
+    } else if (i == prvi) {
+      return "prvi je " + prvi;
+    } else {
+      return "prvi je " + drugi;
+    }
+  }
+}
+console.log(funk(89, 89));
