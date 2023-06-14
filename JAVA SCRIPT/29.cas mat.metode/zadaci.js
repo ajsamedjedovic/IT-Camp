@@ -25,3 +25,15 @@ console.log(funkcija(1, 1, 1, 1));
 // 1.povrsina kruga,gde precnik predstavlja argument
 
 //2.Pretvraranje radijana u stepene
+
+function funkcija(radijan) {
+  stepen = (radijan * 180) / Math.PI;
+  return "u stepenima je" + stepen;
+}
+
+console.log(funkcija(Math.PI));
+
+function funkcija2(R) {
+  return "Obim kruga je" + R ** 2;
+}
+console.log(funkcija2(10));
