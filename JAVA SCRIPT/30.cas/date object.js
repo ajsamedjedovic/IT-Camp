@@ -66,3 +66,14 @@ console.log(razlika_datum);
 
 const dana = razlika / 1000 / 60 / 60 / 24;
 console.log(dana);
+
+/////domaci//////////////
+
+function funkcija(prvi_datum, drugi_datum) {
+  const prvi = Date.parse(prvi_datum);
+  const drugi = Date.parse(drugi_datum);
+  const razlika = prvi - drugi;
+  raz = Math.abs(razlika) / 86400000;
+  return raz;
+}
+console.log(funkcija("2004-09-15", "1999-05-24"));
