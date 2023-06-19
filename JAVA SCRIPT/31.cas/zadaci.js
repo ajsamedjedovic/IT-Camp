@@ -35,3 +35,18 @@ function getMonth(string) {
   return meseci[month];
 }
 console.log(getMonth("2023-01-22"));
+
+//domaci
+
+function countMyAge(birthDateString) {
+  const birthDate = new Date(birthDateString);
+  const currentDate = new Date();
+  const birthMiliseconds = Date.parse(birthDate);
+  const currentMiliseconds = Date.parse(currentDate);
+
+  const sub = currentMiliseconds - birthMiliseconds;
+  const year = new Date(sub).getFullYear() - 1970;
+  return year;
+}
+
+console.log(countMyAge("1996-06-24"));
