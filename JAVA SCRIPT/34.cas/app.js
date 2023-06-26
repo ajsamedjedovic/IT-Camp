@@ -76,3 +76,34 @@ console.log(brojevi);
 brojevi.sort(function (A, B) {});
 console.log(brojevi);
 //Napraviti  funkciju koja vraca najmanji element nekog niza
+
+function najmanjiClan(niz) {
+  najmanji = niz[0];
+  for (i = 0; i < niz.length - 1; i++) {
+    if (niz[i] < najmanji) {
+      najmanji = niz[i];
+    }
+  }
+  return najmanji;
+}
+
+console.log(najmanjiClan([9, 10, 9, 0]));
+
+niz = [1, 8, 10, 0];
+niz.sort(function (A, B) {
+  return A - B;
+});
+console.log(niz);
+console.log(niz[0]);
+
+// function najveciClan(niz) {
+//   najveci = niz[0];
+//   for (let i = niz[niz.length - 1]; i < niz[0]; i--) {
+//     if (niz[i] > najveci) {
+//       najveci = niz[i];
+//     }
+//   }
+//   return najveci;
+// }
+// console.log(najveciClan([7, 11, 9, 0]));
+// //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
