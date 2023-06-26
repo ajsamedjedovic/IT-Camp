@@ -22,3 +22,18 @@ console.log(fruits.includes("pineapple"));
 //Array.from() - metoda  vraca niz od poslatog argumenta(argument moze biti bilo koji objekat sa length svojstvom)
 const arr = Array.from("ABCDEF"); // ['A','B','C','D','E','F']
 console.log(arr);
+
+function funkcija(string, A, B) {
+  nova = "";
+  for (let i = 0; i < string.length; i++) {
+    A = string[i];
+    B = string[i + 1];
+    if (A % 2 == 0 && B % 2 === 0) {
+      nova += string[i] + "-";
+    } else {
+      nova += string[i];
+    }
+  }
+  return nova;
+}
+console.log(funkcija("025468"));
