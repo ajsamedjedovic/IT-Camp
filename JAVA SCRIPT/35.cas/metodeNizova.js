@@ -37,3 +37,4 @@ function funkcija(string, A, B) {
   return nova;
 }
 console.log(funkcija("025468"));
+///////////////////////////////////////////////////////////////////

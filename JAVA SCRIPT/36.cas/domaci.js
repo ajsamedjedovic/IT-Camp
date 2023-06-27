@@ -1,3 +1,4 @@
+//1.
 function parniIndexi(niz) {
   const noviNiz = [];
   for (i = 0; i < niz.length; i++) {
@@ -13,6 +14,7 @@ function parniIndexi(niz) {
 console.log(parniIndexi([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]));
 // console.log(parnIndexi([1, 2, 3, 5, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]));
 ///?
+//2.
 function parniBrojevi(niz) {
   const noviNiz = [];
   const noviNiz2 = [];
@@ -26,7 +28,7 @@ function parniBrojevi(niz) {
   return noviNiz;
 }
 console.log(parniBrojevi([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));
-
+//3.
 function neparniBrojevi(niz) {
   const noviNiz = [];
   const noviNiz2 = [];
@@ -42,6 +44,7 @@ function neparniBrojevi(niz) {
 console.log(neparniBrojevi([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));
 
 /////////////////////////////////////////////////
+//4.
 function pozitivniBrojevi(niz) {
   const noviNiz = [];
 
@@ -56,6 +59,7 @@ function pozitivniBrojevi(niz) {
 }
 console.log(pozitivniBrojevi([1, 2, 3, 4, 5, -6, -7, 8, 9, 10]));
 ////////////////////////////////////////////////////////////////////////
+//5.
 function uString(niz) {
   let string = "";
   const noviNiz2 = [];
