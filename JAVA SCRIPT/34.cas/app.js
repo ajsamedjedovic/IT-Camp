@@ -96,14 +96,14 @@ niz.sort(function (A, B) {
 console.log(niz);
 console.log(niz[0]);
 
-// function najveciClan(niz) {
-//   najveci = niz[0];
-//   for (let i = niz[niz.length - 1]; i < niz[0]; i--) {
-//     if (niz[i] > najveci) {
-//       najveci = niz[i];
-//     }
-//   }
-//   return najveci;
-// }
-// console.log(najveciClan([7, 11, 9, 0]));
-// //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+function najveciClan(niz) {
+  let najveci = niz[0];
+  for (let i = 0; i < niz.length; i++) {
+    if (niz[i] > najveci) {
+      najveci = niz[i];
+    }
+  }
+  return najveci;
+}
+console.log(najveciClan([700, 11, 100, 20]));
+//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
