@@ -16,27 +16,29 @@ const a = [
 // " 24"
 // "row 2"
 
-const editor = (arr, element) => {
-  novi = [];
-  for (let i = element[0]; i < arr.length; i++) {
-    for (let j = i; j < arr[i].length; j++) {
-      novi.push(i, j);
-    }
-    return novi;
-  }
-};
-console.log(editor(a));
+console.log(a[1][1]);
 
-// const output = (arr) => {
-//   arr.forEach((element, index) => {
-//     console.log(`row ${index + 1}`);
-//     element.forEach((el) => {
-//       console.log(el);
-//     });
-//   });
-//   return "";
+// const editor = (arr) => {
+//   novi = [];
+//   for (let i = arr[0][arr.length - 1]; i < arr.length; i++) {
+//     for (let j = i; j < arr[i].length; j++) {
+//       novi.push(i, j);
+//     }
+//     return novi;
+//   }
 // };
-// console.log(output(a));
+// console.log(editor(a));
+
+const output = (arr) => {
+  arr.forEach((element, index) => {
+    console.log(`row ${index + 1}`);
+    element.forEach((el) => {
+      console.log(el);
+    });
+  });
+  return "";
+};
+console.log(output(a));
 
 // console.log(55);
 
