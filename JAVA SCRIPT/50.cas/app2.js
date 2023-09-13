@@ -69,3 +69,25 @@ chain
   .catch((poruka) => {
     console.log(poruka);
   });
+
+const promise2 = new Promise((resolve, reject) => {
+  const rec = "aeiouajsaajsaaa";
+  var samoglasnici = rec.toLowerCase().match(/[aeiou]/gi);
+
+  if (samoglasnici && samoglasnici.length > 10) {
+    resolve();
+  } else if (samoglasnici && samoglasnici.length < 11) {
+    reject();
+  }
+});
+
+promise2
+  .then(() => {
+    console.log("String zadovoljava uslov");
+  })
+  .catch(() => {
+    console.log("String ne zadovoljava uslov");
+  })
+  .finally(() => {
+    console.log("Funkcija je uspesno izvrsena");
+  });
