@@ -1,5 +1,3 @@
-import "/App.css";
-
 function App() {
   return (
     <div style={{ display: "flex" }} class="rootdiv">

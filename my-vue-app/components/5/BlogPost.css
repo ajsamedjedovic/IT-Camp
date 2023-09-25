@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  padding: 40px 0px;
+  border-bottom: 1px solid gray;
+}
+.blogLeft {
+  width: 400px;
+}
+
+.tittle {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 0;
+  padding-bottom: 5px;
+}
+
+.blogTittle {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 0;
+  padding-bottom: 5px;
+}
+
+/* 
+nijeZavrseno */
